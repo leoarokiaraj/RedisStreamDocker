@@ -1,0 +1,23 @@
+{
+  "name": "redisconsumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config index.js",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "redis": "^4.6.14",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
